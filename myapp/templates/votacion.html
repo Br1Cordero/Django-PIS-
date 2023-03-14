@@ -1,0 +1,169 @@
+{% extends './base.html' %}
+
+{% block title%} VOTAR {% endblock %}
+
+{% block body %}
+
+
+<div class="container">
+    <div class="m-0 row justify-content-center">
+        <h1 class="text-center">Voto </h1>
+    </div>
+    <div class="flex-shrink-0 dropdown">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+              <div alt="mdo" class="rounded-circle d-grid gap-2">
+                  <button type="submit" class="btn btn-outline-primary btn-lg">Lista A</button>
+              </div>
+          </a>
+          <ul class="dropdown-menu text-small shadow" style="width:100%;" aria-labelledby="dropdownUser2">
+              <div class="bg-white rounded-5">
+    <section class="w-100">
+      <style>
+        .divider:after,
+        .divider:before {
+          content: "";
+          flex: 1;
+          height: 1px;
+          background: #eee;
+          width: 100%;
+        }
+        .h-custom {
+          height: calc(100% - 73px);
+          width: 100%;
+        }
+        @media (max-width: 450px) {
+          .h-custom {
+          width: 100%;
+            height: 100%;
+          }
+        }
+      </style>
+      <div class="container-fluid h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-md-9 col-lg-6 col-xl-6 my-lg-5 py-lg-5">
+              <div class="divider d-flex align-items-center my-4">
+                <p class="text-center h4 fw-bold mx-3 mb-0">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Presidente</font>
+                    </font>
+                </p>
+              </div>
+            <img src="https://scontent.fgye25-1.fna.fbcdn.net/v/t1.6435-9/88964676_1236971196494895_1299139938167554048_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_eui2=AeGMbs45-VdmroXactrCDc1zAbOTSfKVZoIBs5NJ8pVmgkDJE2JRVPzMil5AMZuPh5hmPjw8amCgIUj8yyzki_jj&_nc_ohc=0_gjgfLhxJQAX_bvjmb&_nc_ht=scontent.fgye25-1.fna&oh=00_AfB0rMfUgei2OlmknV3P9XWlyKkWVXMdXxGzgcvzot7vMA&oe=6431B8AA" class="img-fluid" alt="Imagen de muestra">
+              <br>
+            <div class="divider d-flex align-items-center my-4">
+                <p class="text-center h4 fw-bold mx-3 mb-0">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Arelis Espinoza Ortega</font>
+                    </font>
+                </p>
+              </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-outline-info" type="button">Dar mi Voto</button>
+          </div>
+          </div>
+          <div class="col-md-8 col-lg-6 col-xl-5 offset-xl-1 my-lg-5 py-lg-5">
+            <form>
+              <div class="divider d-flex align-items-center my-4">
+                <p class="text-center h4 fw-bold mx-3 mb-0">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">LISTA A</font>
+                    </font>
+                </p>
+              </div>
+
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example1" style="margin-left: 0px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Apellidos / Nombres</font></font></label>
+                  <input type="text" id="form3Example1" class="form-control form-control-lg" disabled readonly value="Arelis Espinoza Ortega">
+              <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88.8px;"></div><div class="form-notch-trailing"></div></div></div>
+
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example2" style="margin-left: 0px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Carrera</font></font></label>
+                  <input type="text" id="form3Example2" class="form-control form-control-lg" disabled readonly value="Tecnología de desarrollo de software - TDS">
+              <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88.8px;"></div><div class="form-notch-trailing"></div></div></div>
+
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example3" style="margin-left: 0px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nivel / Paralelo - Jornada</font></font></label>
+                  <input type="text" id="form3Example3" class="form-control form-control-lg" disabled readonly value="5to “A” - Matutina - TDS">
+              <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88.8px;"></div><div class="form-notch-trailing"></div></div></div>
+
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example4" style="margin-left: 0px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Propuestas</font></font></label>
+                  <input type="text" id="form3Example4" class="form-control form-control-lg" disabled readonly value="Me consagro en cumplir mis propósitos sobre el mejoramiento de la institución.">
+              <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88.8px;"></div><div class="form-notch-trailing"></div></div></div>
+            </form>
+          </div>
+        </div>
+      </div>
+          </ul>
+    </div>
+
+        <!-- Otra Lista -->
+      <div style="width:100%;" class="flex-shrink-0 dropdown">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+              <div alt="mdo" class="rounded-circle d-grid gap-2">
+                  <button type="submit" class="btn btn-outline-primary btn-lg">Lista B</button>
+              </div>
+          </a>
+          <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser1">
+              <div class="bg-white rounded-5">
+    <section class="w-100">
+      <div class="container-fluid h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-md-9 col-lg-6 col-xl-6 my-lg-5 py-lg-5">
+              <div class="divider d-flex align-items-center my-4">
+                <p class="text-center h4 fw-bold mx-3 mb-0">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Presidente</font>
+                    </font>
+                </p>
+              </div>
+            <img src="https://scontent.fgye25-1.fna.fbcdn.net/v/t39.30808-6/316038484_1481966048960713_8046364830124598744_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeF77tcpQn3RimIIpddW2F3mLT-ab5K72j8tP5pvkrvaP6tsPD-5rc2mGP9mfOKxMbcy-nfYhmRNmjc4QSlNq43c&_nc_ohc=szgHUzLh7xMAX8ixFtm&_nc_ht=scontent.fgye25-1.fna&oh=00_AfBioS8GDmJh8ZiCQhNHU_oSU9xarXYbeAg-ybsjAX5oBg&oe=640E8009" class="img-fluid" alt="Imagen de muestra">
+              <br>
+            <div class="divider d-flex align-items-center my-4">
+                <p class="text-center h4 fw-bold mx-3 mb-0">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Eneira Yepez Sudiaga</font>
+                    </font>
+                </p>
+              </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-outline-info" type="button">Dar mi Voto</button>
+          </div>
+          </div>
+          <div class="col-md-8 col-lg-6 col-xl-5 offset-xl-1 my-lg-5 py-lg-5">
+            <form>
+              <div class="divider d-flex align-items-center my-4">
+                <p class="text-center h4 fw-bold mx-3 mb-0">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">LISTA A</font>
+                    </font>
+                </p>
+              </div>
+
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form1Example1" style="margin-left: 0px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Apellidos / Nombres</font></font></label>
+                  <input type="text" id="form1Example1" class="form-control form-control-lg" disabled readonly value="Eneira Yepez Sudiaga ">
+              <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88.8px;"></div><div class="form-notch-trailing"></div></div></div>
+
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form1Example2" style="margin-left: 0px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Carrera</font></font></label>
+                  <input type="text" id="form1Example2" class="form-control form-control-lg" disabled readonly value="Tecnología de desarrollo de software - TDS">
+              <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88.8px;"></div><div class="form-notch-trailing"></div></div></div>
+
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form1Example3" style="margin-left: 0px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nivel / Paralelo - Jornada</font></font></label>
+                  <input type="text" id="form1Example3" class="form-control form-control-lg" disabled readonly value="5to “A” - Matutina - TDS">
+              <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88.8px;"></div><div class="form-notch-trailing"></div></div></div>
+
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form1Example4" style="margin-left: 0px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Propuestas</font></font></label>
+                  <input type="text" id="form1Example4" class="form-control form-control-lg" disabled readonly value="Me consagro en cumplir mis propósitos sobre el mejoramiento de la institución.">
+              <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88.8px;"></div><div class="form-notch-trailing"></div></div></div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+{% endblock %}
+

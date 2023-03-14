@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title%} {% endblock %}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header
+    class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+    <a href="../ " class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><img
+          src="https://static.wixstatic.com/media/3ce611_0095bdf2d7ab4f429eddeb0704dfa57c~mv2.png/v1/fill/w_327,h_142,al_c,lg_1,q_85,enc_auto/3ce611_0095bdf2d7ab4f429eddeb0704dfa57c~mv2.png"></img></svg>
+    </a>
+
+    <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+      <li><a href="../" class="nav-link h4 px-4 link-dark">Inicio</a></li>
+      <li><a href="#" class="nav-link h4 px-5 link-dark">Consultas de votos</a></li>
+      <li><a href="/estadisticas" target="ejemplo" class="nav-link h4 px-5 link-dark">Estadisticas de votos</a>
+      </li>
+      <li><a href="/votar" target="ejemplo" class="nav-link h4 px-5   link-dark">Voto telematico </a></li>
+    </ul>
+
+    <div class="dropdown text-end">
+      <a href="#" class="px-5 d-block link-dark text-decoration-none dropdown-toggle show" id="dropdownUser1"
+        data-bs-toggle="dropdown" aria-expanded="true">
+        <img
+          src="https://play-lh.googleusercontent.com/lax00puJz-wvIlOxdoDVvdSGoe86x6II8ypai_JAvCOlXzMt5fYoq7Nh-ZhOMkVeFmcg=w240-h480-rw"
+          alt="mdo" width="50" height="50" class="rounded-circle">
+      </a>
+      <ul class="dropdown-menu text-small show" aria-labelledby="dropdownUser1"
+        style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(0px, 34px);"
+        data-popper-placement="bottom-start">
+
+        <li><a class="dropdown-item" href="#">Cerrar Session</a></li>
+      </ul>
+    </div>
+  </header>
+    {% block body%} 
+                
+    {% endblock %}
+    <footer>
+        <div class="container">
+            <p>&copy; Programa 2022</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
+
+        
